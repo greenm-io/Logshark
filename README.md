@@ -1,4 +1,4 @@
-﻿This repository fork includes additional "Tabterrier" plugin. See delails on [plugin page](https://github.com/annpalmir/Logshark/tree/tabterrier/Plugins/Tabterrier/README.md).
+﻿This repository fork includes additional "Tabterrier" plugin. See delails on [plugin page](https://github.com/greenmorg/Logshark/tree/tabterrier/Plugins/Tabterrier).
 
 # Logshark
 [![Community Supported](https://img.shields.io/badge/Support%20Level-Community%20Supported-457387.svg)](https://www.tableau.com/support-levels-it-and-developer-tools)
