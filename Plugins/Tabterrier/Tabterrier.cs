@@ -1,12 +1,11 @@
 ﻿using Logshark.ArtifactProcessors.TableauServerLogProcessor.Parsers;
 using Logshark.ArtifactProcessors.TableauServerLogProcessor.PluginInterfaces;
 using Logshark.PluginLib.Extensions;
-using Logshark.PluginLib.Helpers;
 using Logshark.PluginLib.Model.Impl;
 using Logshark.PluginLib.Persistence;
 using Logshark.PluginModel.Model;
-using Logshark.Plugins.OpenPerformance.Helpers;
-using Logshark.Plugins.OpenPerformance.Model;
+using Logshark.Plugins.Tabterrier.Helpers;
+using Logshark.Plugins.Tabterrier.Model;
 using MongoDB.Bson;
 using MongoDB.Driver;
 using System;
@@ -14,13 +13,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Logshark.Plugins.OpenPerformance
+namespace Logshark.Plugins.Tabterrier
 {
     /// <summary>
-    /// OpenPerformance Workbook Creation Plugin
+    /// Tabterrier Workbook Creation Plugin
     /// </summary>
-    public class OpenPerformance : BaseWorkbookCreationPlugin, IServerClassicPlugin, IServerTsmPlugin
-    { 
+    public class Tabterrier : BaseWorkbookCreationPlugin, IServerClassicPlugin, IServerTsmPlugin
+    {
         private IPluginResponse pluginResponse;
         private string vizql = "vizqlserver_cpp";
         private string performance_result = "performance_result";
@@ -29,8 +28,8 @@ namespace Logshark.Plugins.OpenPerformance
         private AggregateOptions allowDiskUsageArg = new AggregateOptions { AllowDiskUse = true };
 
         private IPersister<PerformanceData> openPerformancePersister;
-        
-        public OpenPerformance()
+
+        public Tabterrier()
         {
         }
 
@@ -54,7 +53,7 @@ namespace Logshark.Plugins.OpenPerformance
             {
                 return new List<string>
                 {
-                    "OpenPerformance.twb"
+                    "Tabterrier.twb"
                 };
             }
         }

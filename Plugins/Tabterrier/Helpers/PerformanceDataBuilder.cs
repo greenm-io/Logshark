@@ -1,14 +1,9 @@
-﻿using Logshark.Plugins.OpenPerformance.Model;
+﻿using Logshark.Plugins.Tabterrier.Model;
 using MongoDB.Bson;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Text.RegularExpressions;
-using System.Threading.Tasks;
 using Logshark.PluginLib.Helpers;
 
-namespace Logshark.Plugins.OpenPerformance.Helpers
+namespace Logshark.Plugins.Tabterrier.Helpers
 {
     class PerformanceDataBuilder
     {

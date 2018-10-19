@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("OpenPerformance")]
+[assembly: AssemblyTitle("Tabterrier")]
 [assembly: AssemblyDescription("Logshark Workbook Creation Plugin")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Tableau")]
-[assembly: AssemblyProduct("OpenPerformance")]
+[assembly: AssemblyProduct("Tabterrier")]
 [assembly: AssemblyCopyright("Tableau")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("ed15c732-e66e-4977-9133-6af20253abb6")]
+[assembly: Guid("842854ce-628b-4e75-8159-935c1cba7009")]
 
 // Version information for an assembly consists of the following four values:
 //

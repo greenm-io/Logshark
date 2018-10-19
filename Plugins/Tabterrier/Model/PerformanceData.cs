@@ -1,9 +1,7 @@
-﻿using Logshark.PluginLib.Helpers;
-using MongoDB.Bson;
-using ServiceStack.DataAnnotations;
+﻿using ServiceStack.DataAnnotations;
 using System;
 
-namespace Logshark.Plugins.OpenPerformance.Model
+namespace Logshark.Plugins.Tabterrier.Model
 {
     class PerformanceData
     {
@@ -30,7 +28,7 @@ namespace Logshark.Plugins.OpenPerformance.Model
 
         public string Site { get; set; }
 
-        public DateTime? StartTs { get; set; }
+        public DateTime StartTs { get; set; }
 
     }
 }

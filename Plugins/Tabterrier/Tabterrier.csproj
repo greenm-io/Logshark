@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x64</Platform>
-    <ProjectGuid>{88607161-B8F6-4BBC-A59E-0614850EF64B}</ProjectGuid>
+    <ProjectGuid>{12F6D46F-A39B-489C-9125-C58B4DD4FBCC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Logshark.Plugins.OpenPerformance</RootNamespace>
-    <AssemblyName>OpenPerformance</AssemblyName>
+    <RootNamespace>Logshark.Plugins.Tabterrier</RootNamespace>
+    <AssemblyName>Tabterrier</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -81,11 +81,8 @@
   <ItemGroup>
     <Compile Include="Helpers\PerformanceDataBuilder.cs" />
     <Compile Include="Model\PerformanceData.cs" />
-    <Compile Include="OpenPerformance.cs" />
+    <Compile Include="Tabterrier.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="OpenPerformance.twb" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\ArtifactProcessors\TableauServerLogProcessor\TableauServerLogProcessor.csproj">
@@ -104,6 +101,7 @@
   <ItemGroup>
     <None Include="app.config" />
     <None Include="packages.config" />
+    <EmbeddedResource Include="Tabterrier.twb" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
